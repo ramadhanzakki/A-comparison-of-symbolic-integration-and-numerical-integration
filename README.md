@@ -20,7 +20,7 @@ Program ini menggunakan fungsi non-trivial:
 
 ---
 
-## 📝 Kesimpulan
+## Kesimpulan
 
 1. **Kemampuan CAS dalam Integrasi Simbolik**  
    Penggunaan pustaka `sympy` sebagai *Computer Algebra System* (CAS) terbukti dapat menyelesaikan persamaan integral non-trivial $f(x) = x \cdot e^{-x^2}$ secara simbolik/aljabar murni menghasilkan anti-turunan persis $F(x) = -\frac{e^{-x^2}}{2} + C$, bukan sekadar menghitung nilai aproksimasi numerik.
