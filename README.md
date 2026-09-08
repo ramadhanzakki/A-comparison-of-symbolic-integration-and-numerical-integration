@@ -20,6 +20,21 @@ Program ini menggunakan fungsi non-trivial:
 
 ---
 
+## 📝 Kesimpulan
+
+1. **Kemampuan CAS dalam Integrasi Simbolik**  
+   Penggunaan pustaka `sympy` sebagai *Computer Algebra System* (CAS) terbukti dapat menyelesaikan persamaan integral non-trivial $f(x) = x \cdot e^{-x^2}$ secara simbolik/aljabar murni menghasilkan anti-turunan persis $F(x) = -\frac{e^{-x^2}}{2} + C$, bukan sekadar menghitung nilai aproksimasi numerik.
+
+2. **Hubungan Visual $f(x)$ dan $F(x)$**  
+   Melalui grafik Matplotlib, terlihat jelas hubungan matematis antara fungsi asli $f(x)$ dan hasil integrasinya $F(x)$:
+   - Titik di mana $f(x) = 0$ (pada $x = 0$) bertepatan dengan titik stasioner (nilai ekstrem/puncak) dari fungsi anti-turunan $F(x)$.
+   - Luas daerah yang diarsir pada interval $[0, 1.5]$ merepresentasikan nilai integral tentu $\int_{0}^{1.5} f(x) \, dx$.
+
+3. **Efisiensi Integrasi Simbolik-Numerik**  
+   Fungsi `sp.lambdify` berhasil menjembatani komputasi simbolik (SymPy) dan komputasi numerik (NumPy/Matplotlib), sehingga ekspresi aljabar kompleks dapat dievaluasi pada ratusan titik data secara efisien dan menghasilkan kurva visualisasi yang mulus.
+
+---
+
 ## Library yang Digunakan
 
 Program ini dibangun menggunakan beberapa library Python:

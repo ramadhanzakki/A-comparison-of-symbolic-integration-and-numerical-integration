@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Fungsi untuk memebuat persamaan matematika non-trivial dan menghitung anti-turunanya dengan cara simbolik
 def integrasi_simbolik():
     # Inisialisasi variabel simbolik
-    print('     [STATUS] -> Inisialisasi varaibel simbolik')
+    print('     [STATUS] -> Inisialisasi variabel simbolik')
     x = sp.Symbol('x')
 
     # Inisialisasi fungsi non-trivial f(x) = x * e(-x^2)
