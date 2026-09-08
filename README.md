@@ -4,7 +4,7 @@ Program Python sederhana untuk menghitung anti-turunan (integral tak tentu) suat
 
 ---
 
-## 📐 Fungsi Matematika yang Digunakan
+## Fungsi Matematika yang Digunakan
 
 Program ini menggunakan fungsi non-trivial:
 
@@ -20,7 +20,7 @@ Program ini menggunakan fungsi non-trivial:
 
 ---
 
-## 📦 Library yang Digunakan
+## Library yang Digunakan
 
 Program ini dibangun menggunakan beberapa library Python:
 
@@ -33,7 +33,7 @@ Program ini dibangun menggunakan beberapa library Python:
 
 ---
 
-## 🚀 Cara Menjalankan Program
+## Cara Menjalankan Program
 
 1. **Prasyarat**: Pastikan Python sudah terinstal.
 2. **Instal dependensi:**
